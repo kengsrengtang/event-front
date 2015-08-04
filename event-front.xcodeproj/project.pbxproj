@@ -13,6 +13,8 @@
 		5536D05F1B705CBF0000AA8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5536D05E1B705CBF0000AA8B /* Images.xcassets */; };
 		5536D0621B705CBF0000AA8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5536D0601B705CBF0000AA8B /* LaunchScreen.xib */; };
 		5536D06E1B705CBF0000AA8B /* event_frontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D06D1B705CBF0000AA8B /* event_frontTests.swift */; };
+		5536D0781B706E990000AA8B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D0771B706E990000AA8B /* Contact.swift */; };
+		5536D07A1B7074F10000AA8B /* ReadContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D0791B7074F10000AA8B /* ReadContacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5536D0671B705CBF0000AA8B /* event-frontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "event-frontTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5536D06C1B705CBF0000AA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5536D06D1B705CBF0000AA8B /* event_frontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event_frontTests.swift; sourceTree = "<group>"; };
+		5536D0771B706E990000AA8B /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5536D0791B7074F10000AA8B /* ReadContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadContacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				5536D05E1B705CBF0000AA8B /* Images.xcassets */,
 				5536D0601B705CBF0000AA8B /* LaunchScreen.xib */,
 				5536D0551B705CBF0000AA8B /* Supporting Files */,
+				5536D0771B706E990000AA8B /* Contact.swift */,
+				5536D0791B7074F10000AA8B /* ReadContacts.swift */,
 			);
 			path = "event-front";
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5536D07A1B7074F10000AA8B /* ReadContacts.swift in Sources */,
+				5536D0781B706E990000AA8B /* Contact.swift in Sources */,
 				5536D05A1B705CBF0000AA8B /* ViewController.swift in Sources */,
 				5536D0581B705CBF0000AA8B /* AppDelegate.swift in Sources */,
 			);
