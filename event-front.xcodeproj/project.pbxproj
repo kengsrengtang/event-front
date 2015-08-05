@@ -15,6 +15,7 @@
 		5536D06E1B705CBF0000AA8B /* event_frontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D06D1B705CBF0000AA8B /* event_frontTests.swift */; };
 		5536D0781B706E990000AA8B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D0771B706E990000AA8B /* Contact.swift */; };
 		5536D07A1B7074F10000AA8B /* ReadContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D0791B7074F10000AA8B /* ReadContacts.swift */; };
+		5536D07C1B71B7420000AA8B /* RestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536D07B1B71B7420000AA8B /* RestUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		5536D06D1B705CBF0000AA8B /* event_frontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event_frontTests.swift; sourceTree = "<group>"; };
 		5536D0771B706E990000AA8B /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		5536D0791B7074F10000AA8B /* ReadContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadContacts.swift; sourceTree = "<group>"; };
+		5536D07B1B71B7420000AA8B /* RestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				5536D0551B705CBF0000AA8B /* Supporting Files */,
 				5536D0771B706E990000AA8B /* Contact.swift */,
 				5536D0791B7074F10000AA8B /* ReadContacts.swift */,
+				5536D07B1B71B7420000AA8B /* RestUtil.swift */,
 			);
 			path = "event-front";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				5536D07A1B7074F10000AA8B /* ReadContacts.swift in Sources */,
 				5536D0781B706E990000AA8B /* Contact.swift in Sources */,
 				5536D05A1B705CBF0000AA8B /* ViewController.swift in Sources */,
+				5536D07C1B71B7420000AA8B /* RestUtil.swift in Sources */,
 				5536D0581B705CBF0000AA8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				5536D0731B705CBF0000AA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5536D0741B705CBF0000AA8B /* Build configuration list for PBXNativeTarget "event-frontTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				5536D0761B705CBF0000AA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
